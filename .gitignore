@@ -1,0 +1,49 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Secrets
+secrets/
+*.pem
+*.key
+*.crt
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Docker
+.dockerignore
+
+# Kubernetes
+kubeconfig
+
+# Monitoring
+prometheus_data/
+grafana_data/
+loki_data/
+
+# Backups
+backups/
+*.backup
+
+# Temporary files
+tmp/
+temp/
